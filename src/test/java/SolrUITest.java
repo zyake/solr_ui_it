@@ -95,11 +95,14 @@ public class SolrUITest extends AbstractWebTest {
 
     private byte[] getDigest(InputStream inputStream) throws IOException, NoSuchAlgorithmException {
         MessageDigest md5 = MessageDigest.getInstance("MD5");
-        try (DigestInputStream digestInputStream = new DigestInputStream(inputStream, md5) ) {
+        DigestInputStream digestInputStream = new DigestInputStream(inputStream, md5);
+        try {
             while ( digestInputStream.read() != -1 ) {
             }
-
-            return md5.digest();
+        } finally {
+            digestInputStream.close();
         }
+
+        return md5.digest();
     }
 }
