@@ -2,15 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98a05d9f-2658-48a2-8e15-25ff483811a1" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_2_0_2.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/SolrUITest.java" afterPath="$PROJECT_DIR$/src/test/java/SolrUITest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solr_ui_it.iml" afterPath="$PROJECT_DIR$/solr_ui_it.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="solr_ui_it.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="98a05d9f-2658-48a2-8e15-25ff483811a1" time="1390142731019" ignored="false" />
-    <file path="/pom.xml" changelist="98a05d9f-2658-48a2-8e15-25ff483811a1" time="1390127130319" ignored="false" />
-    <file path="/SolrUITest.java" changelist="98a05d9f-2658-48a2-8e15-25ff483811a1" time="1390142848409" ignored="false" />
+    <file path="/pom.xml" changelist="98a05d9f-2658-48a2-8e15-25ff483811a1" time="1390143534862" ignored="false" />
+    <file path="/SolrUITest.java" changelist="98a05d9f-2658-48a2-8e15-25ff483811a1" time="1390143486859" ignored="false" />
     <file path="/fragment.java" changelist="98a05d9f-2658-48a2-8e15-25ff483811a1" time="1390135472506" ignored="false" />
     <file path="/WebTestBase.java" changelist="98a05d9f-2658-48a2-8e15-25ff483811a1" time="1390133827770" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,6 +22,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="Commander">
+    <leftPanel />
+    <rightPanel />
+    <splitter proportion="0.5" />
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -76,7 +83,7 @@
       <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="21" selection-start="808" selection-end="808" vertical-scroll-proportion="0.0">
+            <state line="29" column="26" selection-start="1149" selection-end="1149" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -85,17 +92,10 @@
       <file leaf-file-name="AbstractWebTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/AbstractWebTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="5" selection-start="1728" selection-end="1728" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WebDriverWait.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/2.34.0/selenium-support-2.34.0.jar!/org/openqa/selenium/support/ui/WebDriverWait.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="73" selection-start="233" selection-end="233" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="63" column="39" selection-start="1682" selection-end="1682" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -130,7 +130,7 @@
       <file leaf-file-name="solr_ui_it.iml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/solr_ui_it.iml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="0" selection-start="4821" selection-end="4821" vertical-scroll-proportion="0.0">
+            <state line="54" column="0" selection-start="5024" selection-end="5024" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -139,7 +139,29 @@
       <file leaf-file-name="SolrUITest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/SolrUITest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="0" selection-start="1286" selection-end="1286" vertical-scroll-proportion="-0.9107438">
+            <state line="19" column="13" selection-start="585" selection-end="585" vertical-scroll-proportion="-0.7355372">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1832#2475#0" expanded="true" />
+                <element signature="e#2464#2465#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Predicate.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/14.0/guava-14.0.jar!/com/google/common/base/Predicate.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="28" selection-start="259" selection-end="259" vertical-scroll-proportion="-5.32">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Nullable.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://C:/glassfish4/jdk7/jre/lib/rt.jar!/com/sun/istack/internal/Nullable.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="188" selection-start="450" selection-end="450" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -175,10 +197,10 @@
         <option value="$PROJECT_DIR$/src/main/java/my/apps/solrui/SolrUITest.java" />
         <option value="$PROJECT_DIR$/src/main/java/solrui/SolrUITest.java" />
         <option value="$PROJECT_DIR$/src/main/java/SolrUITest.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/WebTestBase.java" />
         <option value="$PROJECT_DIR$/src/test/java/AbstractWebTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/SolrUITest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -647,7 +669,7 @@
       <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -731,20 +753,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="21" selection-start="808" selection-end="808" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/AbstractWebTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="73" selection-start="997" selection-end="997" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/2.34.0/selenium-support-2.34.0.jar!/org/openqa/selenium/support/ui/WebDriverWait.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="73" selection-start="233" selection-end="233" vertical-scroll-proportion="0.0">
@@ -782,7 +790,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/solr_ui_it.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="0" selection-start="4821" selection-end="4821" vertical-scroll-proportion="0.0">
+        <state line="54" column="0" selection-start="5024" selection-end="5024" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -797,13 +805,6 @@
     <entry file="jar://C:/glassfish4/jdk7/jre/lib/rt.jar!/java/net/URLClassLoader.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="48" column="0" selection-start="2626" selection-end="2626" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="21" selection-start="808" selection-end="808" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -829,17 +830,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/glassfish4/jdk7/jre/lib/rt.jar!/com/sun/istack/internal/Nullable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="188" selection-start="450" selection-end="450" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/14.0/guava-14.0.jar!/com/google/common/base/Predicate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="28" selection-start="259" selection-end="259" vertical-scroll-proportion="-5.32">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="26" selection-start="1149" selection-end="1149" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/AbstractWebTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="5" selection-start="1728" selection-end="1728" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="63" column="39" selection-start="1682" selection-end="1682" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/SolrUITest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="0" selection-start="1286" selection-end="1286" vertical-scroll-proportion="-0.9107438">
-          <folding />
+        <state line="19" column="13" selection-start="585" selection-end="585" vertical-scroll-proportion="-0.7355372">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1832#2475#0" expanded="true" />
+            <element signature="e#2464#2465#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

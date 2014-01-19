@@ -1,6 +1,6 @@
 import com.google.common.base.Predicate;
-import com.sun.istack.internal.Nullable;
 import org.junit.Test;
+import javax.annotation.Nullable;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
